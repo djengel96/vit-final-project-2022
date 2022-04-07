@@ -1,0 +1,145 @@
+body {
+   max-width: 100%;
+}
+
+.logo {
+   height: 150px;
+}
+
+.header {
+   display: flex;
+   background-color: #eee;
+}
+
+.tab {
+   color: #659DBD;
+   text-decoration: none;
+   font-size: 4rem;
+}
+
+.nav {
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.nav-li {
+   font-family: 'Rubik Moonrocks', cursive;
+}
+
+@media only screen and (max-width: 1000px) {
+   .nav {
+     flex-wrap: wrap;
+   }
+ }
+
+.home-hero {
+   text-align: center;
+   max-width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.home-about-textbox {
+   padding-left: 3rem;
+   padding-right: 3rem;
+}
+
+.some-work {
+   text-align: center;
+}
+
+.portfolio {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.portfolio-item {
+   margin: 20px;
+}
+
+.portfolio-item > img {
+   height: 200px;
+}
+
+.portfolio-item > p {
+   text-align: center;
+
+}
+
+.button-container {
+   text-align: center;
+}
+
+.footer {
+   max-width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.span-3 {
+   font-size: 1.5rem;
+}
+
+.columns {
+   display: flex;
+   justify-content: space-around;
+}
+
+
+/*************** ABOUT ******************/
+
+
+.about-1 {
+   
+}
+
+.about-1-image-container > img{
+   width: 400px;
+   padding-top: 10px;
+}
+
+.about-1 > div {
+}
+
+
+
+.button-accent {
+   
+   cursor: pointer;
+   outline: 0;
+   color: #fff;
+   background-color: #659DBD;
+   border-color: #0d6efd;
+   display: inline-block;
+   font-weight: 400;
+   line-height: 1.5;
+   text-align: center;
+   border: none;
+   padding: 6px 12px;
+   font-size: 16px;
+   border-radius: .25rem;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   text-decoration: none;
+
+   
+}
+
+.button-accent:hover {
+   color: #fff;
+   background-color: #0b5ed7;
+   border-color: #0a58ca;
+}
+
+/* 
+#659DBD 
+
+#e9e9e9
+*/
+
+/* 
+font-family: 'PT Sans', sans-serif;
+font-family: 'Rubik Moonrocks', cursive; 
+*/
