@@ -1,4 +1,4 @@
-
+// another practice
 
 let name = document.getElementById("name")
 
